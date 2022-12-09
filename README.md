@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ```
 5. Create a .env file and add your API Key
 ```
-OPENAI_API = YOUR_API_KEY
+echo "OPENAI_API_KEY=SECRET_KEY" > .env
 ```
 6. Run the chatbot
 ```
